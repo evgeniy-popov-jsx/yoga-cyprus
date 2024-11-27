@@ -1,0 +1,43 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  --bg: #2d433e;
+  --accent: #7c9774;
+  --text: #eceed8;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+
+  --xxl: 50px; /* 70px */
+  --xl: 30px; /* 50px */
+  --lg: 28px; /* 40px */
+  --md: 20px; /* 32px */
+  --sm: 16px; /* 24px */
+  --xs: 25px; /* 25px */
+  --xxs: 17px; /* 17px */
+  --tiny: 16px; /* 16px */
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  background-color: var(--text);
+}
+
+html {
+  font-size: clamp(14px, 1.5vw, 18px);
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
