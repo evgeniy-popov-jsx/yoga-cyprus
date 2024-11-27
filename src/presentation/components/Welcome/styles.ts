@@ -5,7 +5,7 @@ const Container = styled.div`
   max-width: 1712px;
   margin: 0 auto;
   padding: 150px 20px 30px 20px;
-  gap: 8px;
+  gap: 40px;
   background-color: var(--text);
 
   @media (max-width: 1024px) {
@@ -24,9 +24,9 @@ const WelcomeContent = styled.div`
 const WelcomeImage = styled.div`
   position: relative;
   flex: 1;
-  width: 40%;
-  height: 100vh;
-
+  max-width: 800px;
+  height: 600px;
+  overflow: hidden;
   @media (max-width: 1024px) {
     display: none;
   }
@@ -34,14 +34,13 @@ const WelcomeImage = styled.div`
 
 const Image = styled.img`
   position: absolute;
-  top: 0;
-  left: 0;
   width: 100%;
   height: 100%;
   inset: 0px;
   color: transparent;
   user-select: none;
   object-fit: cover;
+  transform: translate(-20px, -20px);
 `;
 
 const H3 = styled.h3`
@@ -60,7 +59,7 @@ const H3 = styled.h3`
 `;
 
 const P = styled.p`
-  max-width: 773px;
+  max-width: 500px;
   margin-bottom: 30px;
   color: var(--bg);
   font-size: var(--md);
