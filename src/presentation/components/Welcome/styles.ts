@@ -25,7 +25,7 @@ const WelcomeImage = styled.div`
   position: relative;
   flex: 1;
   width: 40%;
-  height: auto;
+  height: 100vh;
 
   @media (max-width: 1024px) {
     display: none;

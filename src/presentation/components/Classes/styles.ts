@@ -8,13 +8,9 @@ const Container = styled.section`
 
 const Header = styled.div`
   margin-bottom: 40px;
-  font-size: var(--lg);
+  font-size: var(--xxl);
   font-weight: 700;
   color: var(--bg);
-
-  @media (max-width: 1024px) {
-    font-size: var(--lg);
-  }
 `;
 
 const Classes = styled.div`
@@ -24,7 +20,7 @@ const Classes = styled.div`
 `;
 const Class = styled.div`
   flex: 1;
-  min-width: 694px;
+  min-width: 650px;
 
   @media (max-width: 1440px) {
     min-width: 500px;
@@ -42,6 +38,11 @@ const Title = styled.div`
 const Desc = styled.div`
   font-size: var(--md);
   color: var(--bg);
+  width: 500px;
+
+  @media (max-width: 600px) {
+    width: 100%;
+  }
 `;
 
 export const Styled = {

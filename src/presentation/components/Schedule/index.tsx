@@ -120,6 +120,7 @@ export const Schedule = () => {
               <Styled.IconArrow></Styled.IconArrow>
             </Styled.ScheduleContainer>
           </Styled.Day>
+          <Styled.Day></Styled.Day>
         </Styled.Schedule>
       </Styled.Inner>
     </Styled.Container>

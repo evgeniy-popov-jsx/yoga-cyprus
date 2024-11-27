@@ -16,10 +16,6 @@ const Header = styled.div`
   font-size: var(--xxl);
   font-weight: 700;
   margin-bottom: 50px;
-
-  @media (max-width: 1024px) {
-    font-size: var(--lg);
-  }
 `;
 
 const Bio = styled.div`
@@ -63,6 +59,7 @@ const Profile = styled.div``;
 const Name = styled.div`
   font-size: var(--xxl);
   font-weight: 700;
+  margin-top: -18px;
   @media (max-width: 1024px) {
     font-size: var(--lg);
   }
@@ -79,6 +76,10 @@ const Description = styled.div`
 const Quote = styled.q`
   font-size: var(--xl);
   font-weight: 300;
+  margin-bottom: -10px;
+  @media (max-width: 1440px) {
+    font-size: var(--md);
+  }
 `;
 const History = styled.div`
   display: flex;

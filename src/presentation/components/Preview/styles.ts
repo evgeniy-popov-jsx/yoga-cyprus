@@ -5,18 +5,18 @@ const Container = styled.div`
   background-color: var(--text);
 `;
 
-const Preview = styled.div.attrs<{ $height: number }>((props) => ({
-  style: {
-    height: `${props.$height}px`,
-  },
+const Preview = styled.div.attrs<{ $height: number }>(() => ({
+  style: {},
 }))`
   display: flex;
   width: 100%;
+  height: 100vh;
   background-color: var(--bg);
 `;
 
 const ImageBlock = styled.div`
   position: relative;
+  height: 100vh;
   flex: 1;
 
   @media (max-width: 1200px) {
@@ -44,11 +44,7 @@ const PreviewContent = styled.div`
   padding: 20px 40px 130px 100px;
 
   @media (max-width: 775px) {
-    padding: 20px 40px 130px 54px;
-  }
-
-  @media (max-width: 375px) {
-    padding: 10px 15px 100px 15px;
+    padding: 20px 20px 20px 20px;
   }
 `;
 

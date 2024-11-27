@@ -78,8 +78,10 @@ const Day = styled.div`
   min-width: 500px;
   margin-bottom: 100px;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1440px) {
     margin-bottom: 0px;
+    min-width: 350px;
+    margin-bottom: 20px;
   }
 
   @media (max-width: 535px) {
@@ -99,6 +101,7 @@ const Title = styled.div`
 
 const ScheduleContainer = styled.div`
   display: flex;
+  max-width: 605px;
   gap: 20px;
   padding: 8px 10px;
   margin-bottom: 20px;
@@ -114,8 +117,8 @@ const ScheduleContainer = styled.div`
     max-width: 605px;
   }
 
-  @media (max-width: 1024px) {
-    max-width: 550px;
+  @media (max-width: 1069px) {
+    max-width: 350px;
   }
   @media (max-width: 500px) {
     max-width: 350px;
@@ -150,7 +153,7 @@ const ScheduleStart = styled.div`
 `;
 
 const ScheduleTime = styled.div`
-  margin-top: -10px;
+  margin-top: -5px;
   font-size: var(--tiny);
   font-weight: 400;
 `;

@@ -14,9 +14,6 @@ const Inner = styled.div`
 const Header = styled.div`
   font-size: var(--xxl);
   font-weight: 700;
-  @media (max-width: 1024px) {
-    font-size: var(--lg);
-  }
 `;
 
 const SubHeader = styled.div`
