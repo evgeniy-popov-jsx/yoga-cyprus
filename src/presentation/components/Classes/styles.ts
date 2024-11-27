@@ -8,7 +8,7 @@ const Container = styled.section`
 
 const Header = styled.div`
   margin-bottom: 40px;
-  font-size: var(--xxl);
+  font-size: var(--lg);
   font-weight: 700;
   color: var(--bg);
 
