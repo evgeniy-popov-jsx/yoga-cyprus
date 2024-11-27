@@ -47,6 +47,7 @@ export const Schedule = () => {
               <Styled.IconArrow></Styled.IconArrow>
             </Styled.ScheduleContainer>
             <Styled.ScheduleContainer>
+              <Styled.Online>Online</Styled.Online>
               <Styled.ScheduleName>Yoga Therapy</Styled.ScheduleName>
               <Styled.ScheduleBlock>
                 <Styled.ScheduleStart>8:00</Styled.ScheduleStart>
@@ -55,6 +56,7 @@ export const Schedule = () => {
               <Styled.IconArrow></Styled.IconArrow>
             </Styled.ScheduleContainer>
             <Styled.ScheduleContainer>
+              <Styled.Online>Online</Styled.Online>
               <Styled.ScheduleName>Gentle Yoga</Styled.ScheduleName>
               <Styled.ScheduleBlock>
                 <Styled.ScheduleStart>9:00</Styled.ScheduleStart>
@@ -85,6 +87,7 @@ export const Schedule = () => {
               <Styled.IconArrow></Styled.IconArrow>
             </Styled.ScheduleContainer>
             <Styled.ScheduleContainer>
+              <Styled.Online>Online</Styled.Online>
               <Styled.ScheduleName>Yoga Therapy</Styled.ScheduleName>
               <Styled.ScheduleBlock>
                 <Styled.ScheduleStart>8:00</Styled.ScheduleStart>
@@ -93,6 +96,7 @@ export const Schedule = () => {
               <Styled.IconArrow></Styled.IconArrow>
             </Styled.ScheduleContainer>
             <Styled.ScheduleContainer>
+              <Styled.Online>Online</Styled.Online>
               <Styled.ScheduleName>Gentle Yoga</Styled.ScheduleName>
               <Styled.ScheduleBlock>
                 <Styled.ScheduleStart>9:00</Styled.ScheduleStart>
@@ -112,6 +116,7 @@ export const Schedule = () => {
               <Styled.IconArrow></Styled.IconArrow>
             </Styled.ScheduleContainer>
             <Styled.ScheduleContainer>
+              <Styled.Online>Online</Styled.Online>
               <Styled.ScheduleName>Yoga Practice Intro</Styled.ScheduleName>
               <Styled.ScheduleBlock>
                 <Styled.ScheduleStart>10:00</Styled.ScheduleStart>

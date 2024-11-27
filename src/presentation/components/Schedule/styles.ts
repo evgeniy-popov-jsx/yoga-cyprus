@@ -98,13 +98,25 @@ const Title = styled.div`
   font-size: var(--lg);
   font-weight: 700;
 `;
+const Online = styled.div`
+  position: absolute;
+  top: -16px;
+  left: 25px;
+  background: var(--accent);
+  padding: 0 5px;
+  transition:
+    opacity 0.3s ease,
+    visibility 0s 0.24s;
+  visibility: visible;
+`;
 
 const ScheduleContainer = styled.div`
+  position: relative;
   display: flex;
   max-width: 605px;
   gap: 20px;
   padding: 8px 10px;
-  margin-bottom: 20px;
+  margin-bottom: 35px;
   border: 1px solid var(--text);
   border-radius: 10px;
   align-items: center;
@@ -130,6 +142,13 @@ const ScheduleContainer = styled.div`
 
     ${IconArrow} {
       fill: var(--bg);
+    }
+    ${Online} {
+      opacity: 0;
+      visibility: hidden;
+      transition:
+        opacity 0.1s ease,
+        visibility 0s;
     }
   }
 `;
@@ -174,4 +193,5 @@ export const Styled = {
   ScheduleStart,
   ScheduleTime,
   IconArrow,
+  Online,
 };
