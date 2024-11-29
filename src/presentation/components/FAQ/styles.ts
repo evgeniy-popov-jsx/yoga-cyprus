@@ -3,14 +3,14 @@ import styled from 'styled-components';
 const Container = styled.section`
   max-width: 1712px;
   margin: 0 auto;
-  padding: 100px 20px;
+  padding: 100px 20px 50px 20px;
   color: var(--bg);
   min-height: 100vh;
 `;
 const Header = styled.div`
   font-size: var(--xxl);
-  font-weight: 700px;
-  margin-bottom: 120px;
+  font-weight: 700;
+  margin-bottom: 70px;
 `;
 const Items = styled.div`
   display: flex;
@@ -43,7 +43,13 @@ const Icon = styled.div<{ $isOpen: boolean }>`
   color: var(--bg);
 `;
 
-const Link = styled.a``;
+const Link = styled.a`
+  color: var(--bg);
+
+  &:hover {
+    color: var(--accent);
+  }
+`;
 
 export const Styled = {
   Container,

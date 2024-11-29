@@ -24,9 +24,18 @@ const SocialLink = styled.a`
 `;
 const IconInstagram = styled(Insta)`
   width: 40px;
+  transition: transform 0.3s ease;
+
+  &:hover {
+    transform: scale(1.2);
+  }
 `;
 const IconTelegram = styled(Telegram)`
   width: 40px;
+  transition: transform 0.3s ease;
+  &:hover {
+    transform: scale(1.2);
+  }
 `;
 
 const Links = styled.div`

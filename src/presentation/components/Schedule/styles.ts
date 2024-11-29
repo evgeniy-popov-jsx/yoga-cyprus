@@ -110,7 +110,7 @@ const Online = styled.div`
   visibility: visible;
 `;
 
-const ScheduleContainer = styled.div`
+const ScheduleContainer = styled.a`
   position: relative;
   display: flex;
   max-width: 605px;
@@ -122,6 +122,7 @@ const ScheduleContainer = styled.div`
   align-items: center;
   color: var(--text);
   transition: background-color 0.3s ease;
+  text-decoration: none;
   cursor: pointer;
 
   @media (max-width: 1440px) {
@@ -177,6 +178,15 @@ const ScheduleTime = styled.div`
   font-weight: 400;
 `;
 
+const LinkNumber = styled.a`
+  text-decoration: none;
+  color: var(--text);
+
+  &:hover {
+    color: var(--bg);
+  }
+`;
+
 export const Styled = {
   Container,
   Inner,
@@ -194,4 +204,5 @@ export const Styled = {
   ScheduleTime,
   IconArrow,
   Online,
+  LinkNumber,
 };

@@ -73,7 +73,9 @@ export const Price = () => {
             </Styled.Card>
             <Styled.Card $background>
               <Styled.Price $main $margin={0}>
-                <Styled.ServiceName>Private, 1 hour</Styled.ServiceName>
+                <Styled.ServiceName>
+                  Two privates, one hour each
+                </Styled.ServiceName>
                 <Styled.Cost>€ 70</Styled.Cost>
               </Styled.Price>
             </Styled.Card>

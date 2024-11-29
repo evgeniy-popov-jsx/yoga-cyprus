@@ -29,8 +29,14 @@ export const Faq = () => {
               <br />
               4. We provide financial support for those who are struggling to
               pay by offering a payment delay or discount options up to 50%.
-              Please <Styled.Link href={''}>contact us</Styled.Link> for
-              details.
+              Please{' '}
+              <Styled.Link
+                href={'https://futureofwellness.eu/get-in-touch/'}
+                target='_blink'
+              >
+                contact us
+              </Styled.Link>{' '}
+              for details.
             </Styled.Answer>
           )}
         </Styled.Item>
@@ -195,13 +201,28 @@ export const Faq = () => {
           </Styled.Question>
           {activeIndex === 10 && (
             <Styled.Answer>
-              Here are other pages of ours for you to explore.
+              Here are other pages of ours for you to explore:
               <br />
-              Telegram: https://t.me/yogashalaintala
+              <Styled.Link
+                href={'https://t.me/yogashalaintala'}
+                target='_blink'
+              >
+                Telegram
+              </Styled.Link>
               <br />
-              Instagram: https://www.instagram.com/yogashala.tala/
+              <Styled.Link
+                href={'https://www.instagram.com/yogashala.tala/'}
+                target='_blink'
+              >
+                Instagram
+              </Styled.Link>
               <br />
-              Facebook: https://www.facebook.com/profile.php?id=61551788198476
+              <Styled.Link
+                href={'https://www.facebook.com/profile.php?id=61551788198476'}
+                target='_blink'
+              >
+                Facebook
+              </Styled.Link>
             </Styled.Answer>
           )}
         </Styled.Item>
@@ -244,19 +265,28 @@ export const Faq = () => {
           {activeIndex === 13 && (
             <Styled.Answer>
               Who Are We? Yoga Shala belongs to AS Future of Wellness LTD. Alena
-              Shaidulina is the owner of AS Future of Wellness LTD. Website:
-              https://futureofwellness.eu. Email:
-              futureofwellnessgroup@gmail.com Who do we contact? AS Future of
-              Wellness LTD will only contact individuals who specifically give
-              us consent. Consent may be given by contacting us through our
-              website or by purchasing or renting one of our products or
-              services through email, messenger apps or via offline
-              communication with one of AS Future of Wellness LTD
+              Shaidulina is the owner of AS Future of Wellness LTD.
+              <br />
+              Website:{' '}
+              <Styled.Link href={'https://futureofwellness.eu'} target='_blank'>
+                https://futureofwellness.eu
+              </Styled.Link>
+              <br />
+              Email: futureofwellnessgroup@gmail.com
+              <br />
+              Who do we contact? AS Future of Wellness LTD will only contact
+              individuals who specifically give us consent. Consent may be given
+              by contacting us through our website or by purchasing or renting
+              one of our products or services through email, messenger apps or
+              via offline communication with one of AS Future of Wellness LTD
               representatives. What information do we collect and where is it
               stored? Your name and e-mail address as provided by you contacting
-              us through the contact form at https://futureofwellness.eu, via
-              futureofwellnessgroup@gmail.com or via contacting one of the AS
-              Future of Wellness LTD representatives online and offline. Your
+              us through the contact form at{' '}
+              <Styled.Link href={'https://futureofwellness.eu'} target='_blank'>
+                https://futureofwellness.eu
+              </Styled.Link>
+              , via futureofwellnessgroup@gmail.com or via contacting one of the
+              AS Future of Wellness LTD representatives online and offline. Your
               information can only be accessed solely by the official
               representatives of AS Future of Wellness LTD.
             </Styled.Answer>
